@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_desigh"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="NAme"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Email"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/GivenName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Given NAme"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/familyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Given NAme"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
